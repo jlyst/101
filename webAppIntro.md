@@ -1,11 +1,13 @@
 # Web App Intro
 
+![App Images](images/webAppIntroSplash.png "")
+
 #### Summary and Objective
 For this exercise you will begin with a basic HTML/CSS template for a web application and proceed to customize the content and style to your preference. Through the process you will acquire basic knowledge and intuition about HTML and CSS.
 
 ## INSTRUCTIONS
 
-#### 1 Get the Template Code
+### 1 Get the Template Code
 
 **HTML**
 
@@ -83,7 +85,7 @@ body {
 
 You should be able to preview the web page and see the template that looks like the middle image shown at the top of this page.
 
-#### 2 Play Around with the Code a Bit
+### 2 Play Around with the Code a Bit
 
 Now, try editing HTML content and CSS styles to see how it changes the browser view. Some changes won't be evident, others will. Don't worry about breaking anything. Remember, you can always restart with the code above. If you are pretty new to HTML and CSS, try the following changes.
 
@@ -93,9 +95,11 @@ Now, try editing HTML content and CSS styles to see how it changes the browser v
 
 Ultimately, develop a sense of the components of this template, but you don't have to understand everything completely.
 
+**IMPORTANT: Notice how the attribute `class` is used in the HTML elements and the matching CSS selecter is the same name with a *period* preceeding it. We won't get into the details of this now, but develop an intuition of that connection.**
+
 > **The following items don't have to be done in a particular order**
 
-#### 3 Modify the Color Scheme to Your Preference
+### 3 Modify the Color Scheme to Your Preference
 
 Now let's make some intentional changes. Experiment with differenct combinations of background colors and text colors. You can use color pallete sites, [like this one](https://coolors.co/browser/best/1), to give you ideas. You'll may notice there are three common ways to define colors in CSS.
 
@@ -105,8 +109,33 @@ Now let's make some intentional changes. Experiment with differenct combinations
 
 We won't cover the technical details of HEX and RGB here, but you can still copy them from color codes you find on the web.
 
-#### 4 Change the Font Family of Elements
+### 4 Change the Font Family of Elements
 
-Coming shortly...
+One of the best way to add new fonts is using [Google Fonts](https://fonts.google.com/). Once you select fonts you like there, you will be provided the code you need to insert into your HTML `<head>` and CSS properties you can use. Examples below.
 
-#### 5 Change the 
+```html
+<link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Nunito&display=swap" rel="stylesheet">
+```
+
+```css
+font-family: 'Lexend Zetta', sans-serif;
+```
+
+### 5 Consider Applying Other CSS Properties
+
+CSS offers a multitude of options for styling your web content. Below are a few popular ones to consider.
+
+- `border-radius: 5px;` to create rounded corners on elements
+- `box-shadow: 2px 2px 7px black;` to create a drop shadow effect
+- `border: 1px solid black;` to add a border around an element
+- `background-image: linear-gradient(red, yellow);` to create a background color gradient
+
+It's recommended to just use Google to find CSS effects that you want. For example, "CSS borders" or "CSS background image". You will often find good search results at the top that bring you to W3schools or Mozilla references. For complicated effects you may end up on StackOverflow.
+
+### 6 Add Personalized Content
+
+Change the text content of the navigation bar and splash to match a theme you prefer. Also add some interesting content to the collection of items. You could simply use quotations or term definitions (as a study aid) for each item. You could also add an image element like the example at the top of this page. Adding images would require you to upload images to your site server and add the `img` element appropriately, like below.
+
+```html
+<div class="item"><img src="images/lantern1.jpg">Photo by Gianandrea Villa on Unsplash</div>
+```
