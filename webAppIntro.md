@@ -1,6 +1,6 @@
 # Web App Intro
 
-![App Images](images/webAppIntroSplash.png "")
+![App Images](images/webAppIntroSplash.png)
 
 #### Summary and Objective
 For this exercise you will begin with a basic HTML/CSS template for a web application and proceed to customize the content and style to your preference. Through the process you will acquire basic knowledge and intuition about HTML and CSS.
