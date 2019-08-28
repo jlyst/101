@@ -139,3 +139,8 @@ Change the text content of the navigation bar and splash to match a theme you pr
 ```html
 <div class="item"><img src="images/lantern1.jpg">Photo by Gianandrea Villa on Unsplash</div>
 ```
+Photos at [Unsplash](https://unsplash.com) are a great free resource. Provide attribution though.
+
+### That's it!
+
+Hopefully you built some knowledge and intruition about HTML/CSS in the process.
