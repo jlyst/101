@@ -35,7 +35,7 @@ Make at least the following additions or changes.
 - Provide an app name appropriate for the theme and purpose of the application concept.
 - Use at least one custom font, like we have before using Google Fonts.
 - Change the color scheme of the application.
-- Update the sizing, grid spacing, and number of columns for the collection of items.
+- Update the sizing, grid spacing, number of columns, and break-points (for mobile view) for the collection of items.
 - Incorporate at least three unique icons.
 
 ### That's it. Hope you enjoyed making this interface and had some fun with it.
