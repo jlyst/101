@@ -37,7 +37,7 @@ Make at least the following additions or changes.
 - Change the color scheme of the application.
 - Update the sizing, grid spacing, number of columns, and break-points (for mobile view) for the collection of items.
 - Incorporate at least three unique icons.
+- Provide content that gives a realistic feel for the application theme and purpose.
 
 ### That's it. Hope you enjoyed making this interface and had some fun with it.
 
-- Provide content that gives a realistic feel for the application theme and purpose.
