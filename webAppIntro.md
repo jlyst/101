@@ -3,7 +3,12 @@
 ![App Images](images/webAppIntroSplash.png)
 
 #### Summary and Objective
-For this exercise you will begin with a basic HTML/CSS template for a web application and proceed to customize the content and style to your preference. Through the process you will acquire basic knowledge and intuition about HTML and CSS.
+For this exercise you will begin with a basic HTML/CSS template for a web application and proceed to customize the content and style to your preference. Through the process you will acquire a basic intuition about HTML and CSS.
+
+#### Recommended
+Review the following material on w3schools.com beforehand.
+- https://www.w3schools.com/html/default.asp  (First six sections to “Attributes” shown on left-hand menu)
+- https://www.w3schools.com/css/default.asp  (First five sections shown on left-hand menu)
 
 ## INSTRUCTIONS
 
