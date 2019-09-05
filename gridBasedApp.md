@@ -5,6 +5,9 @@
 #### Summary and Objective
 For this exercise you will modify a grid-based template by customizing the style, content, and icons--building on your intuition about HTML/CSS and patterns of user interface design. Design this app as a To-Do List application. You can refine the purpose and theme subtly, but staying with the To-Do theme will make things easier in the next exercise using Javascript. So your application will not be dynamic yet (that's where Javascript comes in), but you can carefully create the look and feel with HTML, CSS, and Icons.
 
+#### References
+In addition to [w3schools](https://www.w3schools.com/css/css_grid.asp) and the [Mozilla reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) provides a great reference for using CSS grids.
+
 ## Instructions
 
 ### 1 Get the Template Code
@@ -28,7 +31,7 @@ You will notice that the grayed out icons on Font Awesome are premium icons that
 ### 3 Add Icons to Your Interface
 Add at least three unique icons in places you think it would make sense for your theme and application purpose. You may choose to let the icons stand alone or use them with a text description. You will likely want to use some icons for the buttons.
 
-### 4 Style the Application as You Wish and Insert Conent
+### 4 Style the Application as You Wish and Insert Content
 Style the application as you wish according the the theme and purpose of your application. Provide enough content in the list of items to provide a realistic view of what the application would look like with a fully functioning program and database.
 
 Make at least the following additions or changes.
