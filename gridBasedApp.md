@@ -3,7 +3,7 @@
 ![App Images](images/gridBasedWebAppSplash.png)
 
 #### Summary and Objective
-For this exercise you will modify a grid-based template by customizing the style, content, and icons--building on your intuition about HTML/CSS and patterns of user interface design. Design this app as a To-Do List application. You can refine the purpose and theme subtly, but staying with the To-Do them will be useful in the next exercise with Javascript. Your application will not be dynamic yet (we will get to this later), but you can create the look and feel with HTML, CSS, and Icons.
+For this exercise you will modify a grid-based template by customizing the style, content, and icons--building on your intuition about HTML/CSS and patterns of user interface design. Design this app as a To-Do List application. You can refine the purpose and theme subtly, but staying with the To-Do theme will make things easier in the next exercise using Javascript. So your application will not be dynamic yet (that's where Javascript comes in), but you can carefully create the look and feel with HTML, CSS, and Icons.
 
 ## Instructions
 
