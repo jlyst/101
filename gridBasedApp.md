@@ -16,7 +16,7 @@ Fork (copy) the template code on repl.it [found here](https://repl.it/@jimlyst/G
 ### 2 Locate and Experiment with Grid Properties in CSS
 CSS grids identify two important elements, a *container* and the *items* it holds. There are a lot of possibilities with grids, but we are keeping it simple to start with.
 
-The template code uses CSS grid properties in three places--the navigation bar, the collection of items in the main section, and the group of buttons on each item. If you look at the CSS selectors `.nav-bar`, `.collection`, and `item actions`, you will find `display: grid` and a `grid-template-columns` property. The `grid-template-columns` property defines how many columns to create and the relative sizes. Find the property below applied to the `.collection` element, and try making some changes to see what happens.
+The template code uses CSS grid properties in three places--the navigation bar, the collection of items in the main section, and the group of buttons on each item. If you look at the CSS selectors `.nav-bar`, `.collection`, and `.item-actions`, you will find `display: grid` and a `grid-template-columns` property. The `grid-template-columns` property defines how many columns to create and the relative sizes. Find the property below applied to the `.collection` element, and try making some changes to see what happens.
 
 ```css
 grid-template-columns: 1fr 1fr 1fr;
@@ -39,7 +39,7 @@ This allows your application to recognize when the browser is 600 pixels wide or
 Use the reference links towards the top of this document to investigate other things you can do with CSS grids.
 
 ### 3 Link the Font Awesome Icon Library
-The [Font Awesome] (https://fontawesome.com) library of icons is a great resource for adding icons to your web apps. First we need to link the style sheet in your HTML file by adding the following line inside the `head` element.
+The [Font Awesome](https://fontawesome.com) library of icons is a great resource for adding icons to your web apps. First we need to link the style sheet in your HTML file by adding the following line inside the `head` element.
 
 ```html
 <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
