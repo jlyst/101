@@ -102,9 +102,7 @@ Try editing HTML content and CSS styles to see how it changes the browser view. 
 
 Ultimately, develop a sense of the components of this template, but you don't have to understand everything completely.
 
-**IMPORTANT: Notice how the attribute `class` is used in the HTML elements and the matching CSS selecter is the same name with a *period* preceeding it. We won't get into the details of this now, but develop an intuition of that connection.**
-
-> **The following items don't have to be done in a particular order**
+> **IMPORTANT: Notice how the attribute `class` is used in the HTML elements and the matching CSS selecter is the same name with a *period* preceeding it. We won't get into the details of this now, but develop an intuition of that connection.**
 
 &nbsp;
 
