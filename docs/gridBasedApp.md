@@ -13,6 +13,8 @@ In addition to [w3schools](https://www.w3schools.com/css/css_grid.asp) and the [
 ### 1 Get the Template Code
 Fork (copy) the template code on repl.it [found here](https://repl.it/@jimlyst/Grid-Based-Web-App-Template).
 
+&nbsp;
+
 ### 2 Locate and Experiment with Grid Properties in CSS
 CSS grids identify two important elements, a *container* and the *items* it holds. There are a lot of possibilities with grids, but we are keeping it simple to start with.
 
@@ -38,6 +40,8 @@ This allows your application to recognize when the browser is 600 pixels wide or
 
 Use the reference links [towards the top of this document](#references) to investigate other things you can do with CSS grids.
 
+&nbsp;
+
 ### 3 Link the Font Awesome Icon Library
 The [Font Awesome](https://fontawesome.com) library of icons is a great resource for adding icons to your web apps. First we need to link the style sheet in your HTML file by adding the following line inside the `head` element.
 
@@ -53,8 +57,12 @@ Once you have linked this style sheet you are ready to use the icons. You can [s
 
 You will notice that the grayed out icons on Font Awesome are premium icons that you would have to pay for, but there are plenty of useful free icons you can use.
 
+&nbsp;
+
 ### 4 Add Icons to Your Interface
 Add at least three unique icons to your application. You may choose to let the icons stand alone or use them with a text description.
+
+&nbsp;
 
 ### 5 Style the Application as You Wish and Insert Content
 Continue to style the application as you wish according the the theme and purpose of your application, and provide enough content in the list of items to demonstrate a realistic view of what the application would look like with a fully functioning program and database.
@@ -66,6 +74,8 @@ To summarize, make at least the following additions or changes.
 - Update the sizing, grid spacing, number of columns, and break-points (for mobile view width) for the collection of items.
 - Incorporate at least three unique icons.
 - Provide content that gives a realistic feel for the application theme and purpose.
+
+&nbsp;
 
 ### That's it. Hope you enjoyed making this interface and had some fun with it.
 
