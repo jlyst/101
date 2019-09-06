@@ -7,8 +7,8 @@ For this exercise you will begin with a basic HTML/CSS template for a web applic
 
 #### Recommended
 Review the following material on w3schools.com beforehand.
-- https://www.w3schools.com/html/default.asp  (First six sections to “Attributes” shown on left-hand menu)
-- https://www.w3schools.com/css/default.asp  (First five sections shown on left-hand menu)
+- [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)  (First six sections to “Attributes” shown on left-hand menu)
+- [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)  (First five sections shown on left-hand menu)
 
 ## INSTRUCTIONS
 
