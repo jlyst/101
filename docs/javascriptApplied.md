@@ -334,7 +334,7 @@ Program your applicaiton to respond to a user entering data in the HTML input bo
 
 ### Challenge B
 
-Program your application to enable the user to delete an item. No hints here.
+Program your application to enable the user to delete an item. No hints here. OK, here's one. https://love2dev.com/blog/javascript-remove-from-array/. And another ... https://www.w3schools.com/jsref/jsref_foreach.asp
 
 ### Challenge C
 
