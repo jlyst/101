@@ -213,6 +213,7 @@ An array can store multiple values in a variable. For example, we could define a
 
 ```js
 var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+document.querySelector("#results").innerHTML = myData[2];
 ```
 
 The array uses *brackets* `[` `]` with the items listed with commas between. As usual, Strings should have quotation marks, but numbers don't. We can access the first element in the array like this `myData[0]`, where the *0* is called the *index* of the array. Array indices start with 0 then count up. So `myData[0]` would be "Go to grocery" and `myData[1]` would be "Call mom." and so on. It takes time to get used to arrays.
