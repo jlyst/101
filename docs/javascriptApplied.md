@@ -273,16 +273,16 @@ function render() {
 
   myData.forEach(function (item) {
     myOutput += `
-  <div class="item">
-    <div class="item-content">
-      ${item}
-    </div>
-    <div class="item-actions">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-share"></i>
-      <i class="fas fa-trash"></i>
-    </div>
-  </div>`;
+      <div class="item">
+        <div class="item-content">
+          ${item}
+        </div>
+        <div class="item-actions">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-share"></i>
+          <i class="fas fa-trash"></i>
+        </div>
+      </div>`;
   });
 
   document.querySelector("#results").innerHTML = myOutput;
