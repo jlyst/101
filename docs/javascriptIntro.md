@@ -1,13 +1,13 @@
 # JavaScript Intro
 
-#### Summary and Objective
-
+#### Summary and Objectives
+In this activity you will step through methods for changing the browser view of the HTML dynamically with JavaScript programming. You will primarily use variables (as Strings and Arrays), functions, and for loops to enable an interactive applicaiton.
 
 ## INSTRUCTIONS
 
 ### 1 - Get the Starter Code
 
-Create a new HTML/CSS/JS application. The code below assumes you will use `index.html`, `style.css`, and `script.js` in the same folder, like the default setup in [Repl.it](https://repl.it).
+The code below assumes you will use `index.html`, `style.css`, and `script.js` in the same folder, like the default setup in [Repl.it](https://repl.it). We will start with an empty JavaScript file (script.js).
 
 **HTML**
 
@@ -18,37 +18,38 @@ Replace your HTML with the following.
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<div class="app">
-		<div class="nav-bar">
-			<div class="nav-left">APP NAME</div>
-			<div class="nav-right"><i class="fas fa-bars"></i></div>
-		</div>
-		<div class="main-section">
-			<div class="actions">
-        <input class="main-input" placeholder="input here" size="30">
-        <i class="fas fa-arrow-circle-right"> </i>
-      </div>
-      <!--------------------------------------->
-      <!-- OUR PROGRAM RESULTS WILL GO BELOW -->
-      <!--------------------------------------->
-      <div class="collection" id="results">
-        Nothing to see here yet...
-      </div>
-      <!--------------------------------------->
-      <!--------------------------------------->
-      <!--------------------------------------->
+    <div class="app">
+        <div class="nav-bar">
+            <div class="nav-left">APP NAME</div>
+            <div class="nav-right"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="main-section">
+            <div class="actions">
+                <input class="main-input" placeholder="input here" size="30">
+                <i class="fas fa-arrow-circle-right"> </i>
+            </div>
+            <!--------------------------------------->
+            <!-- OUR PROGRAM RESULTS WILL GO BELOW -->
+            <!--------------------------------------->
+            <div class="collection" id="results">
+                Nothing to see here yet...
+            </div>
+            <!--------------------------------------->
+            <!--------------------------------------->
+            <!--------------------------------------->
+        </div>
     </div>
-  </div>
-  <script src="script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
 ```
 
@@ -79,6 +80,17 @@ body {
   text-align: center;
   padding: 10px;
   background: lightgray;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main-input {
+  border: none;
+  outline: none;
+  border-radius: 99px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0px 15px;
 }
 
 .collection {
@@ -99,7 +111,7 @@ body {
 .item-content {
   border-bottom: 1px solid lightgray;
   height: 150px;
-  background-color: black;
+  background-color: #00a;
   color: white;
   padding: 7px;
 }
@@ -120,5 +132,6 @@ body {
 ```
 
 > <i class="fas fa-check-circle"></i> **CHECKPOINT**
-> - 1
-> - 2
+> - When you run the application in the browser you should see a result similar to the one below.
+> 
+> ![App Images](images/jsStarterResult.png)
