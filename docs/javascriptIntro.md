@@ -16,29 +16,35 @@ Replace your HTML with the following.
 ```html
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 	<div class="app">
 		<div class="nav-bar">
 			<div class="nav-left">APP NAME</div>
-			<div class="nav-right"><button>menu</button></div>
+			<div class="nav-right"><i class="fas fa-bars"></i></div>
 		</div>
 		<div class="main-section">
 			<div class="actions">
-        <input class="main-input" placeholder="input placeholder">
-        <button>Input Action</button>
+        <input class="main-input" placeholder="input here" size="30">
+        <i class="fas fa-arrow-circle-right"> </i>
       </div>
       <!--------------------------------------->
       <!-- OUR PROGRAM RESULTS WILL GO BELOW -->
       <!--------------------------------------->
       <div class="collection" id="results">
-        Nothing to see here...
+        Nothing to see here yet...
       </div>
+      <!--------------------------------------->
+      <!--------------------------------------->
+      <!--------------------------------------->
     </div>
   </div>
   <script src="script.js"></script>
