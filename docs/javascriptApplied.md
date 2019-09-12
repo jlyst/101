@@ -205,6 +205,8 @@ Once you run this, you should see two grid items displayed. Notice that we used 
 
 So, if we had 200 items to display we could just keep repeating this, but that would be tedious. There is a much more efficent way to do it. Let's get started with that.
 
+&nbsp;
+
 ### 4 - Using an Array
 
 An array can store multiple values in a variable. For example, we could define a list of content that we would like to display in our grid like this:
@@ -228,7 +230,7 @@ myData.forEach(function (item){
 document.querySelector("#results").innerHTML = myOutput;
 ```
 
-
+&nbsp;
 
 ### 5 - Using a Template Literal
 
@@ -258,6 +260,38 @@ Once you run this in your browser view you should four items in our collection. 
 1. We use a template for `myOutput`. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this in the upper-lefthand corner of most keyboards.
 2. The template allows you to use several lines with your string, rather than keeping everything on the same line. Which is great for including complex HTML.
 3. The template allows us to use *expressions* like `${myData}` to insert a content within the string easily.
+
+&nbsp;
+
+### 6 - Wrapping Things in a Function
+
+```js
+var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+
+function render() {
+  var myOutput = "";
+
+  myData.forEach(function (item) {
+    myOutput += `
+  <div class="item">
+    <div class="item-content">
+      ${item}
+    </div>
+    <div class="item-actions">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-share"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>`;
+  });
+
+  document.querySelector("#results").innerHTML = myOutput;
+}
+
+render();
+```
+
+&nbsp;
 
 ### Let's Stop Here
 
