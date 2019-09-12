@@ -1,7 +1,7 @@
 # JavaScript Intro
 
 #### Summary and Objectives
-In this activity you will step through methods for changing the browser view of the HTML dynamically with JavaScript programming. You will primarily use variables (as Strings and Arrays), functions, and for loops to enable an interactive applicaiton.
+In this activity you will step through methods for changing the browser view of the HTML dynamically with JavaScript programming. You will primarily use variables (as Strings and Arrays), functions, and for-loops to produce an interactive application.
 
 ## INSTRUCTIONS
 
@@ -197,11 +197,25 @@ myOutput += "<div class='item'><div class='item-content'>And me too.</div></div>
 document.querySelector("#results").innerHTML = myOutput;
 ```
 
-Once you run this, you should see two grid items displayed. Notice that we used `+=` to add the second element. This operator simply takes the variable's original value and adds the second value. (By the way, this is very useful for creating a number counter too.)
+Once you run this, you should see two grid items displayed. Notice that we used `+=` to add the second element. This operator simply takes the variable's original value and adds the second value. 
 
-So, if we had 20 items to display we could just keep repeating this, but there is a much more efficent way to do it. Let's get started with that.
+**Try adding a third element of your own.**
 
-### 4 - Using a Template Literal
+> By the way, this (`+=`) is very useful for creating a number counter too.
+
+So, if we had 200 items to display we could just keep repeating this, but that would be tedious. There is a much more efficent way to do it. Let's get started with that.
+
+### 4 - Using an Array
+
+An array can store multiple values in a variable. For example, we could define a list of content that we would like to display in our grid like this:
+
+```js
+var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+```
+
+The array uses *brackets* `[` `]` with the items listed with commas between. As usual, Strings should have quotation marks, but numbers don't. We can access the first element in the array like this `myData[0]`, where the *0* is called the *index* of the array. Array indices start with 0 then count up. So `myData[0]` would be "Go to grocery" and `myData[1]` would be "Call mom." and so on. It takes time to get used to arrays. 
+
+### 5 - Using a Template Literal
 
 [Template literals](https://css-tricks.com/template-literals/) are very useful, and at first they will seem like the strings we have already been using. But they are much more powerful. Replace all your javascript with the code below.
 
@@ -219,3 +233,12 @@ var myOutput = `<div class="item">
   </div>`;
 document.querySelector("#results").innerHTML = myOutput;
 ```
+Once you run this in your browser view you should see a single item in our collection. Let's identfiy a few things going on here.
+1. We are using a new variable, `myData`, to contain our core content of our item.
+2. We use a template for `myOutput`. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this in the upper-lefthand corner of most keyboards.
+3. The template allows you to use several lines with your string, rather than keeping everything on the same line. Which is great for including complex HTML.
+4. The template allows us to use *expressions* like `${myData}` to insert a content within the string easily.
+
+
+
+
