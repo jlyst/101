@@ -321,7 +321,7 @@ Having this function will be useful as you add a feature for the user to submit 
 
 > For the following challenges, https://w3schools.com and https://developer.mozilla.org are good references, but a carefully worded Google search will often lead you right where you need to go.
 
-### 7 - Challenge A
+### Challenge A
 
 Program your applicaiton to respond to a user entering data in the HTML input box and display the added content to your site.
 
@@ -332,10 +332,12 @@ Program your applicaiton to respond to a user entering data in the HTML input bo
 - Re-render the output once you have updated the `myData` array.
 - Finally clear the input box as a convenience to the user.
 
-### 8 - Challenge B
+### Challenge B
 
 Program your application to enable the user to delete an item. No hints here.
 
+## Challenge C
 
+Program your application to enable the user to search items using a separate text input, where the search results are a filtered subset of all the items.
 
-
+&nbsp;
