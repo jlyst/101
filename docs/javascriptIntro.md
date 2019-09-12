@@ -7,7 +7,7 @@ In this activity you will step through methods for changing the browser view of 
 
 ### 1 - Get the Starter Code
 
-The code below assumes you will use `index.html`, `style.css`, and `script.js` in the same folder, like the default setup in [Repl.it](https://repl.it). We will start with an empty JavaScript file (script.js).
+The code below assumes you will use the filenames `index.html`, `style.css`, and `script.js` in the same folder, like the default setup in [Repl.it](https://repl.it). We will start with an empty JavaScript file (script.js).
 
 **HTML**
 
@@ -132,6 +132,41 @@ body {
 ```
 
 > <i class="fas fa-check-circle"></i> **CHECKPOINT**
-> - When you run the application in the browser you should see a result similar to the one below.
+> 
+> When you run the application in the browser you should see a result similar to the one below.
 > 
 > ![App Images](images/jsStarterResult.png)
+
+&nbsp;
+
+### 2 - Use JavaScript to Insert Content
+
+Notice that are starting code is basically like our last exercise with CSS grids with a subtle difference. Look in your HTML and find the following chunk of code.
+
+```html
+<!--------------------------------------->
+<!-- OUR PROGRAM RESULTS WILL GO BELOW -->
+<!--------------------------------------->
+<div class="collection" id="results">
+    Nothing to see here yet...
+</div>
+<!--------------------------------------->
+<!--------------------------------------->
+<!--------------------------------------->
+```
+
+First of all, all those lines that start with `<!--` and end with `-->` are just comments that do not affect the output. Comments just help people looking at the code.  You will notice that the `div` tag for our *collection* not only has a class, as before, but now has an *id* of *results*. ID's are similar to *classes* but are intended to identify one element rather than a type (or class) of elements for styling. The *id* will be used to select an element in the JavaScript to manipulate it.
+
+In your JavaScript (script.js) insert the following line of code and run it.
+
+```js
+document.querySelector("#results").innerHTML = "Hello World";
+```
+
+You should see "Hello World" on your page now. It has been inserted inside your *results* element. Let's break down how that one line of code works.
+
+- `document` is a JavaScript object that provides many useful methods to work with the HTML (the document). The period `.` can then be followed with one of many methods or properties for the document.
+- `querySelector("#results")` is a method to basically go find an HTML element with an *id* of *results*. The `#` denotes an *id*, just like how you used `.` in CSS to prefix a class selector.
+- `innerHTML` allows you to either *read* the HTML inside that element or *set* the HTML to something else. Here we set the HTML to be "Hello World". Note: Strings (a group of characters) need to have quotations around them.
+
+Go ahead and change the *string* to something else. You can also use numbers without quotations and even do some math. Try `3 + 2`. You should see 5 in your web page view.
