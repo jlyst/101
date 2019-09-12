@@ -1,7 +1,7 @@
-# JavaScript Intro
+# Applying JavaScript to a Web App
 
 #### Summary and Objectives
-In this activity you will step through methods for changing the browser view of the HTML dynamically with JavaScript programming. You will primarily use variables (as Strings and Arrays), functions, and for-loops to produce an interactive application.
+In this activity you will step through methods for changing the browser view of the HTML dynamically with JavaScript programming. You will primarily use variables (as Strings and Arrays), for-loops, and built-in functions to change the browser view.
 
 ## INSTRUCTIONS
 
