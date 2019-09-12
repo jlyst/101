@@ -336,7 +336,7 @@ Program your applicaiton to respond to a user entering data in the HTML input bo
 
 Program your application to enable the user to delete an item. No hints here.
 
-## Challenge C
+### Challenge C
 
 Program your application to enable the user to search items using a separate text input, where the search results are a filtered subset of all the items.
 
