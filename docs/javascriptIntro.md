@@ -213,17 +213,36 @@ An array can store multiple values in a variable. For example, we could define a
 var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
 ```
 
-The array uses *brackets* `[` `]` with the items listed with commas between. As usual, Strings should have quotation marks, but numbers don't. We can access the first element in the array like this `myData[0]`, where the *0* is called the *index* of the array. Array indices start with 0 then count up. So `myData[0]` would be "Go to grocery" and `myData[1]` would be "Call mom." and so on. It takes time to get used to arrays. 
+The array uses *brackets* `[` `]` with the items listed with commas between. As usual, Strings should have quotation marks, but numbers don't. We can access the first element in the array like this `myData[0]`, where the *0* is called the *index* of the array. Array indices start with 0 then count up. So `myData[0]` would be "Go to grocery" and `myData[1]` would be "Call mom." and so on. It takes time to get used to arrays.
+
+Replace all of your Javascript with the following.
+
+```js
+var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+var myOutput = "";
+
+myData.forEach(function (item){
+  myOutput += "<div class='item'><div class='item-content'>" + item + "</div></div>";
+});
+
+document.querySelector("#results").innerHTML = myOutput;
+```
+
+
 
 ### 5 - Using a Template Literal
 
 [Template literals](https://css-tricks.com/template-literals/) are very useful, and at first they will seem like the strings we have already been using. But they are much more powerful. Replace all your javascript with the code below.
 
 ```js
-var myData = "This is cool";
-var myOutput = `<div class="item">
+var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+var myOutput = "";
+
+myData.forEach(function (item){
+  myOutput += `
+  <div class="item">
     <div class="item-content">
-      ${myData}
+      ${item}
     </div>
     <div class="item-actions">
       <i class="fas fa-star"></i>
@@ -231,13 +250,18 @@ var myOutput = `<div class="item">
       <i class="fas fa-trash"></i>
     </div>
   </div>`;
+});
+
 document.querySelector("#results").innerHTML = myOutput;
 ```
-Once you run this in your browser view you should see a single item in our collection. Let's identfiy a few things going on here.
-1. We are using a new variable, `myData`, to contain our core content of our item.
-2. We use a template for `myOutput`. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this in the upper-lefthand corner of most keyboards.
-3. The template allows you to use several lines with your string, rather than keeping everything on the same line. Which is great for including complex HTML.
-4. The template allows us to use *expressions* like `${myData}` to insert a content within the string easily.
+Once you run this in your browser view you should four items in our collection. Let's identfiy a few things going on here.
+1. We use a template for `myOutput`. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this in the upper-lefthand corner of most keyboards.
+2. The template allows you to use several lines with your string, rather than keeping everything on the same line. Which is great for including complex HTML.
+3. The template allows us to use *expressions* like `${myData}` to insert a content within the string easily.
+
+### Let's Stop Here
+
+While the code may be challenging now, with time it will make more and more sense. Later we will work through how to allow a user to add content through the HTML input element. 
 
 
 
