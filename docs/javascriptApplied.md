@@ -230,6 +230,10 @@ myData.forEach(function (item){
 document.querySelector("#results").innerHTML = myOutput;
 ```
 
+Notice that after we define the *myData* variable, we define *myOutput* as an empty string. Then we use the *forEach* method on the *myData* array to loop through each item in the array one by one. `item` in the *forEach* function refers to an individual element of the array, like "Go to grocery". With each loop we add HTML and the item text to the *myOutput* variable using the `+=` operator.
+
+After the *forEach* has looped through all of the array we insert the *myOutput* contents into the document.
+
 &nbsp;
 
 ### 5 - Using a Template Literal
@@ -256,14 +260,16 @@ myData.forEach(function (item){
 
 document.querySelector("#results").innerHTML = myOutput;
 ```
-Once you run this in your browser view you should four items in our collection. Let's identfiy a few things going on here.
-1. We use a template for `myOutput`. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this in the upper-lefthand corner of most keyboards.
+Once you run this in your browser view you should four items in our collection. Let's identfiy a few things going on with the template literal here.
+1. We use a template for the variable `myOutput` as we cycle through each element in the array. Notice that this uses *backticks* (&#96;) instead of quotation marks. You can find this character in the upper-lefthand corner of most keyboards.
 2. The template allows you to use several lines with your string, rather than keeping everything on the same line. Which is great for including complex HTML.
-3. The template allows us to use *expressions* like `${myData}` to insert a content within the string easily.
+3. The template also allows us to use *expressions* like `${myData}` to insert a content within the string easily, rather than using `+` and more quotation marks.
 
 &nbsp;
 
 ### 6 - Wrapping Things in a Function
+
+Functions allow us to wrap up chuncks of code that can be reused easily, and it also provides organization to the code. Replace all of your javascript with the code below.
 
 ```js
 var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
@@ -290,6 +296,10 @@ function render() {
 
 render();
 ```
+
+We use the `render()` function here to wrap the code that loops through the array of data and then inserts our structured output into the HTML. After our defined `render()` function you will find a call to render() at the end to actually execute the function when the web page loads.
+
+Having this funciton will be useful later when we add a feature for the user to add data to the application.
 
 &nbsp;
 
