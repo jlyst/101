@@ -139,7 +139,7 @@ body {
 
 &nbsp;
 
-### 2 - Use JavaScript to Insert Content
+### 2 - Use JavaScript to Insert a Line of Text
 
 Notice that are starting code is basically like our last exercise with CSS grids with a subtle difference. Look in your HTML and find the following chunk of code.
 
@@ -155,7 +155,7 @@ Notice that are starting code is basically like our last exercise with CSS grids
 <!--------------------------------------->
 ```
 
-First of all, all those lines that start with `<!--` and end with `-->` are just comments that do not affect the output. Comments just help people looking at the code.  You will notice that the `div` tag for our *collection* not only has a class, as before, but now has an *id* of *results*. ID's are similar to *classes* but are intended to identify one element rather than a type (or class) of elements for styling. The *id* will be used to select an element in the JavaScript to manipulate it.
+First of all, those lines that start with `<!--` and end with `-->` are just comments that do not affect the output. Comments just help people looking at the code.  You will notice that the `div` tag for our *collection* not only has a class, as before, but now has an *id* of *results*. ID's are similar to *classes* but are intended to identify one element rather than a type (or class) of elements for styling. The *id* will be used to select an element in the JavaScript to manipulate it.
 
 In your JavaScript (script.js) insert the following line of code and run it.
 
@@ -163,10 +163,59 @@ In your JavaScript (script.js) insert the following line of code and run it.
 document.querySelector("#results").innerHTML = "Hello World";
 ```
 
-You should see "Hello World" on your page now. It has been inserted inside your *results* element. Let's break down how that one line of code works.
+You should see "Hello World" on your web page view now. It has been inserted inside your *results* element. Let's break down how that one line of code works.
 
 - `document` is a JavaScript object that provides many useful methods to work with the HTML (the document). The period `.` can then be followed with one of many methods or properties for the document.
 - `querySelector("#results")` is a method to basically go find an HTML element with an *id* of *results*. The `#` denotes an *id*, just like how you used `.` in CSS to prefix a class selector.
 - `innerHTML` allows you to either *read* the HTML inside that element or *set* the HTML to something else. Here we set the HTML to be "Hello World". Note: Strings (a group of characters) need to have quotations around them.
 
 Go ahead and change the *string* to something else. You can also use numbers without quotations and even do some math. Try `3 + 2`. You should see 5 in your web page view.
+
+&nbsp;
+
+### 3 - Let's use a Variable
+
+Now replace your line of JavaScript with the following.
+
+```js
+var myOutput = "Hello World, again.";
+
+document.querySelector("#results").innerHTML = myOutput;
+```
+
+Here we are creating a *variable* called *myOutput* and setting it to "Hello World, again.". Then we can use the variable name, `myOutput` to set the *innerHTML* of our element. It may seem like we actually made things more complicated but variables will prove to be indispensible for you.
+
+A variable's contents can be changed in the program. Try putting `myOutput = "Good Bye.";` in between the two lines of code you have. Once you run this in the browser view you will see the latest value of `myOutput` is what gets displayed. 
+
+> Notice that we did not use `var` this second time. We only use `var` to define something as a variable the first time. After that we just use the name of the variable to refer to it.
+
+We can even use HTML in our variable. Let's use HTML like we did for our grid items in our last lab. Replace all your JavaScript with the following code. Yep, replace **it all** with this.
+
+```js
+var myOutput = "<div class='item'><div class='item-content'>Look at me.</div></div>";
+myOutput += "<div class='item'><div class='item-content'>And me too.</div></div>"
+document.querySelector("#results").innerHTML = myOutput;
+```
+
+Once you run this, you should see two grid items displayed. Notice that we used `+=` to add the second element. This operator simply takes the variable's original value and adds the second value. (By the way, this is very useful for creating a number counter too.)
+
+So, if we had 20 items to display we could just keep repeating this, but there is a much more efficent way to do it. Let's get started with that.
+
+### 4 - Using a Template Literal
+
+[Template literals](https://css-tricks.com/template-literals/) are very useful, and at first they will seem like the strings we have already been using. But they are much more powerful. Replace all your javascript with the code below.
+
+```js
+var myData = "This is cool";
+var myOutput = `<div class="item">
+    <div class="item-content">
+      ${myData}
+    </div>
+    <div class="item-actions">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-share"></i>
+      <i class="fas fa-trash"></i>
+    </div>
+  </div>`;
+document.querySelector("#results").innerHTML = myOutput;
+```
