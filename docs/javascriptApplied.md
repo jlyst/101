@@ -299,13 +299,26 @@ render();
 
 We use the `render()` function here to wrap the code that loops through the array of data and then inserts our structured output into the HTML. After our defined `render()` function you will find a call to render() at the end to actually execute the function when the web page loads.
 
-Having this funciton will be useful later when we add a feature for the user to add data to the application.
+Having this function will be useful as you add a feature for the user to submit data to the application.
 
-&nbsp;
+---
 
-### Let's Stop Here
+> For the following challenges, https://w3schools.com and https://developer.mozilla.org are good references, but a carefully worded Google search will often lead you right where you need to go.
 
-While the code may be challenging now, with time it will make more and more sense. Later we will work through how to allow a user to add content through the HTML input element. 
+### 7 - Challenge A
+
+Program your applicaiton to respond to a user entering data in the HTML input box and display the added content to your site.
+
+- Read the text entered into the web page when the user clicks the arrow (submit) button. 
+    - Hints: Use *HTML onclick* to call a new function called `submit()`. Add an *id* to the HTML input element so you can use `document.querySelector('#something').value to read the value.
+- Add the new entry to the `myData` array.
+    - Hints: Use *push()* function available with JavaScript Arrays.
+- Re-render the output once you have updated the `myData` array.
+- Finally clear the input box as a convenience to the user.
+
+### 8 - Challenge B
+
+Program your application to enable the user to delete an item. No hints here.
 
 
 
