@@ -223,6 +223,21 @@ Replace all of your Javascript with the following.
 var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
 var myOutput = "";
 
+for (var i = 0; i < myData.length; i++) { 
+  myOutput += "<div class='item'><div class='item-content'>" + myData[i] + "</div></div>";
+};
+
+document.querySelector("#results").innerHTML = myOutput;
+```
+
+Recognize that in the for-loop above `i` is the index that starts at 0 then increments up with each loop by 1 until it is 3 (which is the *length* of the myData array, 4, minus 1). 
+
+Below is another way to loop through an array with the same result. Replace all of your Javascript with the following.
+
+```js
+var myData = ["Go to grocery.", "Call mom.", "Take dog to vet.", "Pay bills."];
+var myOutput = "";
+
 myData.forEach(function (item){
   myOutput += "<div class='item'><div class='item-content'>" + item + "</div></div>";
 });
