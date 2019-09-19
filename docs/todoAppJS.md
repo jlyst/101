@@ -24,7 +24,7 @@ var myData = [
   }
 ];
 
-// This runs once, when the page is first loaded.
+
 function setup() {
   if (localStorage.getItem("myStoredData")) {
     myData = JSON.parse(localStorage.getItem("myStoredData"));
@@ -60,8 +60,9 @@ function deleteItem(index) {
   var verify = confirm("Are you sure? You are about to delete this item.");
   if (verify) {
     myData.splice(index, 1);
+    updateStorage();
+    render();
   }
-  render();
 }
 
 function toggleComplete(index) {
@@ -71,6 +72,7 @@ function toggleComplete(index) {
   else {
     myData[index].complete = true;
   }
+  updateStorage();
   render();
 }
 
