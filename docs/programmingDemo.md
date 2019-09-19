@@ -25,7 +25,7 @@ var textOut = `${name} is ${age} years old. `;
 
 document.querySelector("body").innerHTML = textOut;
 ```
-#### Result
+##### Result
 > Jill is 28 years old.
 
 ### 3. Use a conditional statements to make a natural explanations of student status and driving status.
@@ -57,7 +57,7 @@ var textOut = `${name} is ${age} years old and ${studentText}. ${name} ${driving
 document.querySelector("body").innerHTML = textOut;
 ```
 
-### Result
+##### Result
 > Jill is 28 years old and is not a student. Jill can drive.
 
 ### 4. Let's use an object instead to describe our person.
@@ -87,7 +87,7 @@ var textOut = `${person.name} is ${person.age} years old and ${studentText}. ${p
 
 document.querySelector("body").innerHTML = textOut;
 ```
-#### Result
+##### Result
 > John is 22 years old and is a student. John can drive
 
 ### 5. Let's use an array.
@@ -105,7 +105,7 @@ var textOut = `There are ${count} items to do. ${firstThing} ${secondThing} ...`
 document.querySelector("body").innerHTML = textOut;
 ```
 
-#### Result
+##### Result
 > There are 5 items to do. Grocery shop. Pay bills. ...
 
 ### 6. Let's use a loop to display all to do items.
@@ -122,7 +122,7 @@ for (var i = 0; i < toDos.length; i++) {
 document.querySelector("body").innerHTML = textOut;
 ```
 
-#### Result
+##### Result
 > Grocery shop. Pay bills. Feed dog. Call mom. Read a great book.
 
 ### 7. Let's use another way to loop.
@@ -139,7 +139,7 @@ toDos.forEach(function (item, index){
 document.querySelector("body").innerHTML = textOut;
 ```
 
-#### Result
+##### Result
 > Grocery shop. Pay bills. Feed dog. Call mom. Read a great book.
 
 ### 8. Let's use an array of objects.
@@ -179,7 +179,7 @@ toDos.forEach(function (item, index){
 document.querySelector("body").innerHTML = textOut;
 ```
 
-#### Result
+##### Result
 > - Grocery shop.
 > - Pay bills.
 > - Call mom.
