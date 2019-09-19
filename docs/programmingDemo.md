@@ -1,3 +1,6 @@
+## A Programming Demo
+
+Each block of JavaScript below can be run in a standard web app to see the same results described. It is recommended that you copy and paste the code and make changes to build a better understanding of how things work. 
 
 ### 1. Basic variables
 
