@@ -69,6 +69,9 @@ var person = {
   isStudent: true
 }
 
+var studentText = "";
+var drivingText = "";
+
 if (person.isStudent) {
   studentText = "is a student";
 }
