@@ -31,7 +31,7 @@ document.querySelector("body").innerHTML = textOut;
 ##### Result
 > Jill is 28 years old.
 
-### 3. Use a conditional statements to make a natural explanations of student status and driving status.
+### 3. Use conditional statements to make a natural explanations of student status and driving status.
 
 ```js
 var name = "Jill";
