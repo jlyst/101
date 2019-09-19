@@ -17,7 +17,7 @@ document.querySelector("body").innerHTML = textOut;
 > Jill is 28 years old.
 
 
-### 2. Let's use a template literal to do the same thing (using `backticks` instead of quotation marks)
+### 2. Let's use a template literal to do the same thing (using \`backticks\` instead of quotation marks)
 
 ```js
 var name = "Jill";
