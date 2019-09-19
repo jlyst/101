@@ -2,6 +2,11 @@
 
 Using the HTML and CSS from your [previous work](gridBasedApp) on a "To-Do App", use this JavaScript as a starting point for an interactive application. You will want to adapt it based on your design choices in your HTML and CSS, and any features you prefer. Optionally, if you want to start anew with the HTML and CSS, you can use the HTML/CSS template at the bottom of this page.
 
+> **IMPORTANT**: In your previously created HTML you will want to add the following...
+> - `id="myInput"` to your `input` element.
+> - `onclick="submit()"` to your clickable element (maybe a button) to submit a new todo
+> - `id="results"` to your element with class "collection"
+
 ##### To-Do JavaScript Starter Code
 ```js
 // Let's start with some default to-do items.
