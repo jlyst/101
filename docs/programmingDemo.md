@@ -10,6 +10,10 @@ var textOut = name + " is " + age + " years old. ";
 
 document.querySelector("body").innerHTML = textOut;
 ```
+##### Result
+Jill is 28 years old.
+
+
 ### 2. Let's use a template literal to do the same thing (using `backticks` instead of quotation marks)
 
 ```js
@@ -21,6 +25,9 @@ var textOut = `${name} is ${age} years old. `;
 
 document.querySelector("body").innerHTML = textOut;
 ```
+#### Result
+Jill is 28 years old.
+
 ### 3. Use a conditional statements to make a natural explanations of student status and driving status.
 
 ```js
@@ -50,6 +57,9 @@ var textOut = `${name} is ${age} years old and ${studentText}. ${name} ${driving
 document.querySelector("body").innerHTML = textOut;
 ```
 
+### Result
+Jill is 28 years old and is not a student. Jill can drive.
+
 ### 4. Let's use an object instead to describe our person.
 
 ```js
@@ -77,6 +87,9 @@ var textOut = `${person.name} is ${person.age} years old and ${studentText}. ${p
 
 document.querySelector("body").innerHTML = textOut;
 ```
+#### Result
+John is 22 years old and is a student. John can drive
+
 ### 5. Let's use an array.
 
 ```js
@@ -92,6 +105,9 @@ var textOut = `There are ${count} items to do. ${firstThing} ${secondThing} ...`
 document.querySelector("body").innerHTML = textOut;
 ```
 
+#### Result
+There are 5 items to do. Grocery shop. Pay bills. ...
+
 ### 6. Let's use a loop to display all to do items.
 
 ```js
@@ -106,12 +122,15 @@ for (var i = 0; i < toDos.length; i++) {
 document.querySelector("body").innerHTML = textOut;
 ```
 
+#### Result
+Grocery shop. Pay bills. Feed dog. Call mom. Read a great book.
+
 ### 7. Let's use another way to loop.
 
 ```js
 var toDos = ["Grocery shop.", "Pay bills.", "Feed dog.", "Call mom.", "Read a great book."];
 
-textOutput = "";
+textOut = "";
 
 toDos.forEach(function (item, index){
   textOut += item + " ";
@@ -119,6 +138,9 @@ toDos.forEach(function (item, index){
 
 document.querySelector("body").innerHTML = textOut;
 ```
+
+#### Result
+Grocery shop. Pay bills. Feed dog. Call mom. Read a great book.
 
 ### 8. Let's use an array of objects.
 
@@ -156,3 +178,9 @@ toDos.forEach(function (item, index){
 
 document.querySelector("body").innerHTML = textOut;
 ```
+
+#### Result
+- Grocery shop.
+- Pay bills.
+- Call mom.
+- Read a great book.
