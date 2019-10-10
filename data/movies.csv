@@ -1,0 +1,251 @@
+ID,Rank,Rating,Title,Year,Votes
+1,6,8.9,12 Angry Men,1957,212873
+2,93,8.3,2001: A Space Odyssey,1968,232896
+3,192,8,8_,1963,46140
+4,198,8,A Beautiful Mind,2001,266226
+5,61,8.4,A Clockwork Orange,1971,297729
+6,219,8,A Fistful of Dollars,1964,64677
+7,103,8.3,A Separation,2011,69217
+8,218,8,A Streetcar Named Desire,1951,51283
+9,40,8.5,Alien,1979,298172
+10,58,8.4,Aliens,1986,271683
+11,94,8.3,All About Eve,1950,49351
+12,228,8,All Quiet on the Western Front,1930,32358
+13,88,8.3,Amadeus,1984,152126
+14,48,8.5,American Beauty,1999,461957
+15,35,8.5,American History X,1998,399053
+16,180,8.1,Amores Perros,2000,101525
+17,62,8.4,AmŽlie,2001,293481
+18,202,8,Anatomy of a Murder,1959,26152
+19,153,8.1,Annie Hall,1977,105097
+20,36,8.5,Apocalypse Now,1979,259845
+21,181,8.1,Argo,2012,38423
+22,247,8,Arsenic and Old Lace,1944,39582
+23,49,8.5,Back to the Future,1985,349706
+24,206,8,Barry Lyndon,1975,58731
+25,104,8.3,Batman Begins,2005,492255
+26,224,8,Beauty and the Beast,1991,148886
+27,169,8.1,Ben-Hur,1959,89460
+28,91,8.3,Bicycle Thieves,1948,46765
+29,238,8,Big Fish,2003,233787
+30,171,8.1,Black Swan,2010,293388
+31,124,8.2,Blade Runner,1982,277862
+32,84,8.3,Braveheart,1995,396886
+33,234,8,Bringing Up Baby,1938,30849
+34,147,8.1,Butch Cassidy and the Sundance Kid,1969,86811
+35,25,8.6,Casablanca,1942,238894
+36,149,8.1,Casino,1995,178722
+37,240,8,Castle in the Sky,1986,43064
+38,77,8.3,Chinatown,1974,122771
+39,76,8.3,Cinema Paradiso,1988,75474
+40,44,8.5,Citizen Kane,1941,189099
+41,42,8.5,City Lights,1931,50657
+42,20,8.7,City of God,2002,284859
+43,134,8.2,Cool Hand Luke,1967,71265
+44,71,8.4,Das Boot,1981,100898
+45,167,8.1,Dial M for Murder,1954,52370
+46,101,8.3,Die Hard,1988,320718
+47,207,8,District 9,2009,306809
+48,178,8.1,Dog Day Afternoon,1975,103813
+49,176,8.1,Donnie Darko,2001,335465
+50,57,8.4,Double Indemnity,1944,56025
+51,107,8.3,Downfall,2004,138764
+52,38,8.5,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,216524
+53,75,8.4,Eternal Sunshine of the Spotless Mind,2004,361957
+54,127,8.2,Fargo,1996,242157
+55,10,8.8,Fight Club,1999,660645
+56,162,8.1,Finding Nemo,2003,322454
+57,111,8.3,For a Few Dollars More,1965,77553
+58,19,8.7,Forrest Gump,1994,562114
+59,82,8.3,Full Metal Jacket,1987,252484
+60,186,8.1,Gandhi,1982,88313
+61,63,8.4,Gladiator,2000,487214
+62,158,8.1,Gone with the Wind,1939,124834
+63,159,8.1,Good Will Hunting,1997,280826
+64,15,8.7,Goodfellas,1990,381571
+65,122,8.2,Gran Torino,2008,283902
+66,105,8.3,Grave of the Fireflies,1988,60430
+67,177,8.1,Groundhog Day,1993,232912
+68,217,8,Harry Potter and the Deathly Hallows: Part 2,2011,227654
+69,225,8,Harvey,1950,31884
+70,120,8.2,Heat,1995,242794
+71,143,8.1,High Noon,1952,48722
+72,144,8.1,Hotel Rwanda,2004,150081
+73,164,8.1,How to Train Your Dragon,2010,182363
+74,190,8,Howl's Moving Castle,2004,94717
+75,245,8,In the Heat of the Night,1967,31578
+76,249,8,In the Mood for Love,2000,40572
+77,222,8,In the Name of the Father,1993,48299
+78,14,8.7,Inception,2010,662487
+79,96,8.3,Indiana Jones and the Last Crusade,1989,279022
+80,211,8,Infernal Affairs,2002,53798
+81,114,8.3,Inglourious Basterds,2009,384886
+82,160,8.1,Into the Wild,2007,205765
+83,216,8,Ip Man,2008,61368
+84,140,8.2,It Happened One Night,1934,36797
+85,30,8.6,It's a Wonderful Life,1946,151647
+86,138,8.2,Jaws,1975,220240
+87,246,8,Jurassic Park,1993,262544
+88,151,8.1,Kill Bill: Vol. 1,2003,385885
+89,79,8.3,L.A. Confidential,1997,248654
+90,229,8,La Haine,1995,49899
+91,194,8,La Strada,1954,27208
+92,65,8.4,Lawrence of Arabia,1962,111552
+93,239,8,Let the Right One In,2008,116017
+94,56,8.4,Life Is Beautiful,1997,188738
+95,161,8.1,Life of Brian,1979,152713
+96,141,8.1,"Lock, Stock and Two Smoking Barrels",1998,226697
+97,31,8.6,LŽon: The Professional,1994,369071
+98,53,8.4,M,1931,58921
+99,235,8,Manhattan,1979,63536
+100,183,8.1,Mary and Max,2009,50690
+101,34,8.5,Memento,2000,460773
+102,89,8.3,Metropolis,1927,62888
+103,172,8.1,Million Dollar Baby,2004,247536
+104,45,8.5,Modern Times,1936,63692
+105,220,8,"Monsters, Inc.",2001,250935
+106,83,8.3,Monty Python and the Holy Grail,1975,226983
+107,108,8.3,Mr. Smith Goes to Washington,1939,47190
+108,165,8.1,My Neighbor Totoro,1988,66949
+109,236,8,Mystic River,2003,208735
+110,226,8,NausicaŠ of the Valley of the Wind,1984,41655
+111,168,8.1,Network,1976,57800
+112,139,8.2,No Country for Old Men,2007,328157
+113,41,8.5,North by Northwest,1959,132019
+114,231,8,Nosferatu,1922,44683
+115,154,8.1,Notorious,1946,44634
+116,86,8.3,Oldboy,2003,174527
+117,116,8.2,On the Waterfront,1954,58958
+118,78,8.3,Once Upon a Time in America,1984,120088
+119,22,8.6,Once Upon a Time in the West,1968,121329
+120,12,8.8,One Flew Over the Cuckoo's Nest,1975,363406
+121,106,8.3,Pan's Labyrinth,2006,258554
+122,241,8,Papillon,1973,47882
+123,55,8.4,Paths of Glory,1957,66737
+124,184,8.1,Persona,1966,29431
+125,214,8,Pirates of the Caribbean: The Curse of the Black Pearl,2003,422069
+126,146,8.1,Platoon,1986,170558
+127,97,8.3,Princess Mononoke,1997,110522
+128,29,8.6,Psycho,1960,223222
+129,4,8.9,Pulp Fiction,1994,673937
+130,98,8.3,Raging Bull,1980,136016
+131,27,8.6,Raiders of the Lost Ark,1981,372279
+132,230,8,Rain Man,1988,210535
+133,132,8.2,Ran,1985,47824
+134,90,8.3,Rashomon,1950,58745
+135,212,8,Ratatouille,2007,250930
+136,28,8.6,Rear Window,1954,179254
+137,123,8.2,Rebecca,1940,51529
+138,72,8.4,Requiem for a Dream,2000,312676
+139,70,8.4,Reservoir Dogs,1992,340007
+140,250,8,Rio Bravo,1959,27980
+141,200,8,Rocky,1976,177668
+142,210,8,Roman Holiday,1953,51694
+143,205,8,Rope,1948,53358
+144,223,8,Rosemary's Baby,1968,85428
+145,39,8.5,Saving Private Ryan,1998,446983
+146,130,8.2,Scarface,1983,276971
+147,8,8.9,Schindler's List,1993,448159
+148,23,8.6,Se7en,1995,504005
+149,17,8.7,Seven Samurai,1954,139420
+150,237,8,Shadow of a Doubt,1943,30199
+151,233,8,Shutter Island,2010,331497
+152,135,8.2,Sin City,2005,391015
+153,85,8.3,Singin' in the Rain,1952,83661
+154,244,8,Skyfall,2012,138447
+155,204,8,Sleuth,1972,25347
+156,193,8,Slumdog Millionaire,2008,341315
+157,112,8.3,Snatch.,2000,316575
+158,87,8.3,Some Like It Hot,1959,101547
+159,43,8.5,Spirited Away,2001,192856
+160,232,8,"Spring, Summer, Fall, Winter... and Spring",2003,33681
+161,201,8,Stalag 17,1953,28666
+162,209,8,Stalker,1979,35771
+163,174,8.1,Stand by Me,1986,148709
+164,221,8,Star Trek,2009,265854
+165,16,8.7,Star Wars,1977,486368
+166,11,8.8,Star Wars: Episode V - The Empire Strikes Back,1980,433203
+167,81,8.3,Star Wars: Episode VI - Return of the Jedi,1983,338378
+168,137,8.2,Strangers on a Train,1951,53390
+169,33,8.6,Sunset Blvd.,1950,81275
+170,50,8.4,Taxi Driver,1976,265268
+171,37,8.5,Terminator 2: Judgment Day,1991,397857
+172,185,8.1,The 400 Blows,1959,38237
+173,95,8.3,The Apartment,1960,58683
+174,189,8.1,The Artist,2011,96541
+175,125,8.2,The Avengers,2012,406764
+176,131,8.2,The Big Lebowski,1998,286369
+177,166,8.1,The Big Sleep,1946,40633
+178,182,8.1,The Bourne Ultimatum,2007,265087
+179,100,8.3,The Bridge on the River Kwai,1957,87311
+180,7,8.9,The Dark Knight,2008,845023
+181,32,8.6,The Dark Knight Rises,2012,447206
+182,133,8.2,The Deer Hunter,1978,136645
+183,52,8.4,The Departed,2006,441865
+184,215,8,The Diving Bell and the Butterfly,2007,56714
+185,115,8.2,The Elephant Man,1980,93077
+186,203,8,The Exorcist,1973,177560
+187,121,8.2,The General,1926,29574
+188,2,9.2,The Godfather,1972,629220
+189,3,9,The Godfather: Part II,1974,403019
+190,136,8.2,The Gold Rush,1925,34220
+191,5,8.9,"The Good, the Bad and the Ugly",1966,265700
+192,187,8.1,The Graduate,1967,124823
+193,157,8.1,The Grapes of Wrath,1940,35406
+194,68,8.4,The Great Dictator,1940,62991
+195,110,8.3,The Great Escape,1963,93580
+196,64,8.4,The Green Mile,1999,358123
+197,197,8,The Hustler,1961,37142
+198,67,8.4,The Intouchables,2011,113002
+199,128,8.2,The Kid,1921,27604
+200,188,8.1,The Killing,1956,37714
+201,156,8.1,The King's Speech,2010,217524
+202,80,8.3,The Lion King,1994,285517
+203,60,8.4,The Lives of Others,2006,135955
+204,13,8.8,The Lord of the Rings: The Fellowship of the Ring,2001,635846
+205,9,8.8,The Lord of the Rings: The Return of the King,2003,612170
+206,21,8.7,The Lord of the Rings: The Two Towers,2002,548906
+207,119,8.2,The Maltese Falcon,1941,70521
+208,208,8,The Man Who Shot Liberty Valance,1962,33454
+209,196,8,The Manchurian Candidate,1962,47070
+210,18,8.7,The Matrix,1999,631604
+211,173,8.1,The Night of the Hunter,1955,37893
+212,243,8,The Nightmare Before Christmas,1993,135193
+213,51,8.4,The Pianist,2002,237067
+214,69,8.4,The Prestige,2006,394818
+215,191,8,The Princess Bride,1987,176132
+216,248,8,The Searchers,1956,41423
+217,155,8.1,The Secret in Their Eyes,2009,57476
+218,117,8.2,The Seventh Seal,1957,62116
+219,1,9.2,The Shawshank Redemption,1994,864053
+220,46,8.5,The Shining,1980,308013
+221,24,8.6,The Silence of the Lambs,1991,422645
+222,142,8.1,The Sixth Sense,1999,393880
+223,99,8.3,The Sting,1973,98773
+224,170,8.1,The Terminator,1984,310901
+225,145,8.1,The Thing,1982,145526
+226,73,8.4,The Third Man,1949,70303
+227,74,8.4,The Treasure of the Sierra Madre,1948,47457
+228,213,8,The Truman Show,1998,309904
+229,242,8,The Untouchables,1987,133528
+230,26,8.6,The Usual Suspects,1995,405367
+231,199,8,The Wild Bunch,1969,44001
+232,148,8.1,The Wizard of Oz,1939,158461
+233,227,8,The Wrestler,2008,174048
+234,175,8.1,There Will Be Blood,2007,208152
+235,66,8.4,To Kill a Mockingbird,1962,121827
+236,129,8.2,Touch of Evil,1958,45705
+237,118,8.2,Toy Story,1995,293065
+238,54,8.4,Toy Story 3,2010,252848
+239,150,8.1,Trainspotting,1996,252349
+240,179,8.1,Twelve Monkeys,1995,264593
+241,92,8.3,Unforgiven,1992,158763
+242,113,8.3,Up,2009,284435
+243,163,8.1,V for Vendetta,2005,411038
+244,47,8.5,Vertigo,1958,136350
+245,59,8.4,WALLáE,2008,345921
+246,152,8.1,Warrior,2011,135691
+247,195,8,Who's Afraid of Virginia Woolf?,1966,31673
+248,126,8.2,Wild Strawberries,1957,34523
+249,102,8.3,Witness for the Prosecution,1957,29319
+250,109,8.3,Yojimbo,1961,42736
