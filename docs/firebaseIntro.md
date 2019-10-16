@@ -32,6 +32,11 @@ Add the following code just before `<script src="script.js"></script>` in your H
 <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-firestore.js"></script>
 ```
 
+Add the following HTML element just below your results element--the one with `id="results"`. This is where database actions will be displayed as a log.
+```
+<div id="log"></div>
+```
+
 **JavaScript**
 Add the following at the very top of your Javascript file. The global `db` variable will contain your Firestore database reference.
 ```
