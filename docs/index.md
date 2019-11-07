@@ -10,15 +10,14 @@
 
 ### Core Web App Template and Enhancement Examples
 - The Core Web App Template
-- Primary User Actions
-  - Add Text Item to Collection
-  - Delete Item from Collection
-  - Sort Collection
-  - Mark Item in Collection (e.g. favorite)
+- Add Text Item to Collection
+- Delete Item from Collection
+- Sort Collection
+- Mark Item in Collection (e.g. favorite)
 - View Item Detail on Click
+- Create Flip Card
 - Save User Data in Browser Local Storage
-- Firebase
-  - Authentication
-  - Saving User Data (Basic)
-- Misc
-  - Reading Geolocation
+- Firebase Logging
+- Firebase Authentication
+- Firebase Saving User Data (Basic)
+- Reading Geolocation
