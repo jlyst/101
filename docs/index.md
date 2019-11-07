@@ -17,7 +17,8 @@
 - View Item Detail on Click
 - Create Flip Card
 - Save User Data in Browser Local Storage
-- Firebase Logging
-- Firebase Authentication
-- Firebase Saving User Data (Basic)
 - Reading Geolocation
+- *Advanced*
+  - Firebase Logging
+  - Firebase Authentication
+  - Firebase Saving User Data (Basic)
