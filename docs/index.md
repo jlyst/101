@@ -9,13 +9,13 @@
 6. [Intro to Python and Visualization with a Jupyter Notebook](https://colab.research.google.com/github/jlyst/101/blob/master/data/Combined_Intro_&_Data_Lab.ipynb)
 
 ### Core Web App Template and Enhancement Examples
-- The Core Web App Template
+- [The Core Web App Template](template/coreTemplate)
 - Add Text Item to Collection
 - Delete Item from Collection
 - Sort Collection
 - Mark Item in Collection (e.g. favorite)
 - View Item Detail on Click
-- Create Flip Card
+- [Create Flip Cards](template/flipCards)
 - Save User Data in Browser Local Storage
 - Reading Geolocation
 - *Advanced*
