@@ -14,7 +14,7 @@
 - Delete Item from Collection
 - Sort Collection
 - Mark Item in Collection (e.g. favorite)
-- View Item Detail on Click
+- [View Item Detail on Click](template/detailView)
 - [Create Flip Cards](template/flipCards)
 - Save User Data in Browser Local Storage
 - Reading Geolocation
