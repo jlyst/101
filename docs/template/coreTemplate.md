@@ -1,5 +1,7 @@
 # The Core Web App Template
 
+This is the core template used to demonstrate additional features in this collection. You can find a functioning example of this template [here](https://repl.it/@jimlyst/Core-Template).
+
 ### HTML (index.html)
 ```html
 <!DOCTYPE html>
