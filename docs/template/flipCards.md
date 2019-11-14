@@ -1,6 +1,6 @@
 # Flip Cards
 
-These code samples explain how to alter the Core Web Template to create flip card items within the collection. This code is an adaptation of https://www.w3schools.com/howto/howto_css_flip_card.asp.
+These code samples explain how to alter the Core Web Template to create flip card items within the collection. This code is an adaptation of https://www.w3schools.com/howto/howto_css_flip_card.asp. You can find a functioning example of this template [here](https://repl.it/@jimlyst/Core-Template-Flip-Cards).
 
 
 ### JavaScript
