@@ -1,6 +1,6 @@
 # Add Detail View
 
-With the following modifications, if a user clicks an item in the collection, a detailed view of that item will fill the screen with a close icon that allows the user to close the detail view and return to the collection view.
+With the following modifications to the core template, if a user clicks an item in the collection, a detailed view of that item will fill the screen with a close icon that allows the user to close the detail view and return to the collection view. You can find a functioning example of this template [here](https://repl.it/@jimlyst/Core-Template-View-Detail).
 
 ### JavaScript
 First, you will want to have data that provides text for the list view, like `title` shown below, and text for a detail view, like `content` shown below.
