@@ -10,8 +10,8 @@
 
 ### Core Web App Template and Enhancement Examples
 - [The Core Web App Template](template/coreTemplate)
-- Add Text Item to Collection
-- Delete Item from Collection
+- [Add Text Item to Collection](template/addText)
+- [Delete Item from Collection](template/deleteItem)
 - Sort Collection
 - Mark Item in Collection (e.g. favorite)
 - [View Item Detail on Click](template/detailView)
