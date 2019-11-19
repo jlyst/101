@@ -17,7 +17,7 @@
 - [View Item Detail on Click](template/detailView)
 - [Create Flip Cards](template/flipCards)
 - [Save User Data in Browser Local Storage](template/localStorage)
-- Reading Geolocation
+- [Reading Geolocation](template/geoLocation)
 - *Advanced*
   - Firebase Logging
   - Firebase Authentication
