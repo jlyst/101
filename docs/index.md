@@ -13,7 +13,7 @@
 - [Add Text Item to Collection](template/addText)
 - [Delete Item from Collection](template/deleteItem)
 - Sort Collection
-- Mark Item in Collection (e.g. favorite)
+- [Mark Item in Collection (e.g. favorite)](template/markItem)
 - [View Item Detail on Click](template/detailView)
 - [Create Flip Cards](template/flipCards)
 - Save User Data in Browser Local Storage
