@@ -16,7 +16,7 @@
 - [Mark Item in Collection (e.g. favorite)](template/markItem)
 - [View Item Detail on Click](template/detailView)
 - [Create Flip Cards](template/flipCards)
-- Save User Data in Browser Local Storage
+- [Save User Data in Browser Local Storage](template/localStorage)
 - Reading Geolocation
 - *Advanced*
   - Firebase Logging
