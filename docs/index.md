@@ -18,6 +18,7 @@
 - [Create Flip Cards](template/flipCards)
 - [Save User Data in Browser Local Storage](template/localStorage)
 - [Reading Geolocation](template/geoLocation)
+- [Slideshows](https://glidejs.com/docs/)
 - *Advanced*
   - Firebase Logging
   - Firebase Authentication
