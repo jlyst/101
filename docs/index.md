@@ -12,7 +12,6 @@
 - [The Core Web App Template](template/coreTemplate)
 - [Add Text Item to Collection](template/addText)
 - [Delete Item from Collection](template/deleteItem)
-- Sort Collection
 - [Mark Item in Collection (e.g. favorite)](template/markItem)
 - [View Item Detail on Click](template/detailView)
 - [Edit Item Detail](https://repl.it/@jimlyst/Core-Template-View-Detail-With-Form)
@@ -24,3 +23,5 @@
   - Firebase Logging
   - Firebase Authentication
   - Firebase Saving User Data (Basic)
+- [*Misc Code Samples*](misc.md)
+
