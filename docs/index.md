@@ -20,8 +20,6 @@
 - [Reading Geolocation](template/geoLocation)
 - [Slideshows](https://glidejs.com/docs/)
 - *Advanced*
-  - Firebase Logging
-  - Firebase Authentication
-  - Firebase Saving User Data (Basic)
+  - [Firebase Help](template/firebase.md)
 - [*Misc Code Samples*](misc.md)
 
