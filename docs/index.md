@@ -15,6 +15,7 @@
 - Sort Collection
 - [Mark Item in Collection (e.g. favorite)](template/markItem)
 - [View Item Detail on Click](template/detailView)
+- [Edit Item Detail](https://repl.it/@jimlyst/Core-Template-View-Detail-With-Form)
 - [Create Flip Cards](template/flipCards)
 - [Save User Data in Browser Local Storage](template/localStorage)
 - [Reading Geolocation](template/geoLocation)
