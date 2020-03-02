@@ -178,7 +178,7 @@ textOut = "";
 
 toDos.forEach(function (item, index){
   if (!item.complete){
-    textOut += `${item.content} `;
+    textOut += item.content + " ";
   }
 });
 
