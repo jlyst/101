@@ -56,3 +56,5 @@ var marvelHeroes =  heroes.filter(function(hero) {
 credit: https://alligator.io/js/filter-array-method/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IZyWuD9UqI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% include_relative index.md %}
